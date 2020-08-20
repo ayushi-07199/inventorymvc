@@ -27,9 +27,9 @@ public class SupplierController {
 	
 	@PostConstruct
 	public void init() {
-		Supplier supplier1=new Supplier("praveen","abcde");
+		Supplier supplier1=new Supplier("kanchan","abcde");
 		service1.add(supplier1);
-		Supplier supplier2=new Supplier("prakash","12345");
+		Supplier supplier2=new Supplier("nandini","12345");
 		service1.add(supplier2);
 	}
 	
